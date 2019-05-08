@@ -83,8 +83,16 @@ namespace Zuul_Stage
 
             // ! Creating Items
             Item compass = new Compass('N', 0);
-            Item map = new Map("map", "description of the map");
             s.addItem(compass, (0, 0), 'N');
+
+            string mapDesign = "Simple design of the map";
+            mapDesign += "  \n +---+---+";
+            mapDesign += "  \n |   |   |";
+            mapDesign += "  \n +---+---+";
+            mapDesign += "  \n |   |   |";
+            mapDesign += "  \n +---+---+";
+            Item map = new Map("map", mapDesign);
+            s.addItem(map, (0, 1), 'E');
 
 
 
