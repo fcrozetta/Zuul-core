@@ -1,6 +1,6 @@
 using System;
 
-namespace zuul_core
+namespace Zuul_Items
 {
     abstract class Item
     {

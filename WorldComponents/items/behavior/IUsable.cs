@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using zuul_core;
+using Zuul_Items;
 
 namespace Zuul_Item_Behavior
 {

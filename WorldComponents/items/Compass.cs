@@ -1,7 +1,8 @@
 using System;
 using Zuul_Item_Behavior;
+using Zuul_Items;
 
-namespace zuul_core
+namespace Zuul_Items
 {
     // A compass to know where we are
     class Compass : Item, IPickable, IInteractable
